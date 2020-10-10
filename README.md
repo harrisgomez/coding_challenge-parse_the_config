@@ -1,3 +1,13 @@
+## Available scripts
+
+In the project directory, you can run:
+
+### node script
+
+Parses the example.config file and converts it into a JSON object.  
+Example usage is logged in the terminal.  
+You will see the keys called and the values they return, along with value's (coerced) type.  
+
 # Coding Challenge
 ## Create a parsing tool that takes an example config file and turns it into the language of your choice (hash, JSON object, associative array, class, etc.).
 
