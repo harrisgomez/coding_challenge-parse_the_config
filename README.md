@@ -1,8 +1,12 @@
+# Summary
+
+For this coding challenge, I created a parsing tool by exporting a module which contains a function called *parseConfigToJSON*. This module is then imported within the *main.js* script. Once the module has been instantiated, the *parseConfigToJSON* function can be called. It accepts 1 argument, which is the file path to the configuration file. After that's passed in, it will proceed to parse the configuration file (*example.config* in this example) and turn it into a JSON object. Commented lines in the configuration file are ignored, boolean-line values are coerced to the Boolean type, and numeric values are coerced to the Number type.
+
 ## Available scripts
 
 In the project directory, you can run:
 
-### node script
+### node main
 
 Parses the example.config file and converts it into a JSON object.  
 Example usage is logged in the terminal.  
